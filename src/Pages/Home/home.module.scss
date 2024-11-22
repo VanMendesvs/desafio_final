@@ -1,0 +1,14 @@
+.post{
+    background-image: url('../../assets/background.png');
+    background-repeat: no repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    h2{
+        width: 20vw;
+        font-size: 2em;
+        margin-left: 100px;
+    }
+}
