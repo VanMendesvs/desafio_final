@@ -9,6 +9,35 @@
     h2{
         width: 20vw;
         font-size: 2em;
-        margin-left: 100px;
+        margin-left: 65px;
     }
+}
+
+.devoDoar {
+    height: 80vh;
+
+}
+
+.boxCard{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    article{
+        border: rgb(0, 17, 255);
+        width: 20%;
+        height: 80%;
+        background-color: rgba(1, 87, 148, 0.3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 20px;
+        p {
+            width: 70%;
+            font-size: 15px;
+            text-align: center;
+        }
+        }
 }
