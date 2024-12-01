@@ -59,3 +59,29 @@ header {
         color: white;
     }
 }
+
+@media(max-width: 1170px){
+    .boxLogo{
+        border: solid red;
+        h1{
+            font-size: 1.7vw;
+        }
+        img{
+            width: 5vw;
+        }
+    }
+
+    .boxMenu{
+        border: solid yellow;
+        ul{
+            font-size: 1.5vw;
+        }
+    }
+
+    .boxSearch{
+        width: 20vw;
+        & ::placeholder{
+            font-size: 12px;
+        }
+    }
+}
