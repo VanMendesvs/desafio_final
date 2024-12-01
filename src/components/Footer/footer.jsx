@@ -14,11 +14,11 @@ export default function footer(){
             <section className={S.boxRedes}>
                 <h3>4002-8922</h3>
                 <nav>
-                    <a href=""><img src={Face} alt=""/></a>
-                    <a href=""><img src= {X} alt=""/></a>
-                    <a href=""><img src= {YT} alt=""/></a>
-                    <a href=""><img src={Linkedin} alt=""/></a>
-                    <a href=""><img src= {Insta} alt=""/></a>
+                    <a href=""><img src={Face} alt="Icone Facebook"/></a>
+                    <a href=""><img src= {X} alt="Icone do X/Twitter"/></a>
+                    <a href=""><img src= {YT} alt="Icone do Youtube"/></a>
+                    <a href=""><img src={Linkedin} alt="Icone do Linkedin"/></a>
+                    <a href=""><img src= {Insta} alt="Icone do Instagram"/></a>
                 </nav>
             </section>
             <section className={S.text}>

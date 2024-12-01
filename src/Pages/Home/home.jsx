@@ -15,19 +15,19 @@ export default function Home (){
                     <h2>Por que devo doar?</h2>
                     <section className={S.boxCard}>
                         <article>
-                            <img src={Card1} alt=""/>
+                            <img src={Card1} alt="Icone de circulo com conexão"/>
                             <p> Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</p>
                         </article>
                         <article>
-                            <img src={Card2} alt=""/>
+                            <img src={Card2} alt="Personagem lendo livro"/>
                             <p>Estimula o hábito da leitura e o aprendizado contínuo.</p>
                         </article>
                         <article>
-                            <img src={Card3} alt=""/>
+                            <img src={Card3} alt="Conexão de pessoas atraves do estimulo da leitura"/>
                             <p>Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas. </p>
                         </article>
                         <article>
-                            <img src={Card4} alt=""/>
+                            <img src={Card4} alt="Balança representando igualdade para receber doações"/>
                             <p>Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado. </p>
                         </article>
                     </section>

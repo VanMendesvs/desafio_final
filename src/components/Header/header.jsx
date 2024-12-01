@@ -24,7 +24,7 @@ export default function Header() {
        </nav>
        <div className={S.boxSearch}>
        <input className={S.boxInput} type="text" placeholder="O que você procura?" />
-       <img src= {Busca} alt="" />
+       <img src= {Busca} alt="Icone de Lupa que representa Buscas" />
        </div>
        
       </header>
