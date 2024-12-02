@@ -12,7 +12,7 @@ export default function Home (){
             </section>
             <section className={S.devoDoar}>
                 <div>
-                    <h2>Por que devo doar?</h2>
+                    <h2 className={S.text}>Por que devo doar?</h2>
                     <section className={S.boxCard}>
                         <article>
                             <img src={Card1} alt="Icone de circulo com conexão"/>

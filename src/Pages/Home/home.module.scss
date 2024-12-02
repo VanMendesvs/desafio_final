@@ -15,7 +15,6 @@
 
 .devoDoar {
     height: 80vh;
-
 }
 
 .boxCard{
@@ -23,7 +22,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
     article{
         border: rgb(0, 17, 255);
         width: 20%;
@@ -39,5 +37,60 @@
             font-size: 15px;
             text-align: center;
         }
+        }       
+}
+
+@media(max-width: 1000px){
+    .boxCard{
+        flex-wrap: wrap;
+        article{
         }
+        p{
+            font-size: 1.3vw;
+        }
+    
+    }
+}
+
+@media(max-width: 760px){
+    .post{
+        background-position: center;
+        justify-content: center;
+        h2{
+            margin-left: 0;
+            width: 60%;
+            text-align: center;
+            font-size: 30px;
+            }
+    }
+        
+
+    .devoDoar{
+        height: 120vh;
+        div{
+            justify-content: center;
+        }
+        h2{
+            margin-left: 0;
+        }
+    }
+
+       .boxCard{
+        height: auto;
+        flex-wrap: wrap;
+        gap: 15px;
+        article{
+            width: 120px;
+            height: 35vh;
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media(max-width: 487px){
+    .devoDoar{
+        height: 165vh;
+    }
 }

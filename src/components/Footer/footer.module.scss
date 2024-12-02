@@ -27,3 +27,24 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+@media(max-width: 1000px){
+    .boxRedes{
+        nav{
+        width: 50vw;
+
+        }
+    }
+}
+
+@media(max-width: 479px){
+    .boxRedes{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .text{
+        text-align: center;
+    }
+    
+}
