@@ -4,14 +4,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    h2{
+        border: solid red;
+    }
 }
 
 .boxCards {
     width: 85vw;
     height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     article {
         border: solid 2px #005695;
-        width: 13.5vw;
+        width: 160px;
         height: 30vh;
         display: flex;
         justify-content: space-evenly;
@@ -21,6 +27,32 @@
     }
     img {
         width: 7vw;
+    }
+}
+
+@media(max-width: 1100px){
+    .boxCards{
+        article{
+            width: 16vw;
+            h3{
+                font-size: 10px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media(max-width: 700px){
+    .boxCards{
+        height: 80vh;
+        article{
+            p{
+                font-size: 11.5px;
+            }    
+        }
+        
     }
 }
 

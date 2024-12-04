@@ -11,6 +11,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    
+    h2{
+        text-align: center;
+    }
 
     form {
         border: solid 2px rgba(0 , 86 , 149 , 1);
@@ -30,7 +34,7 @@
         }
         input {
             border: solid 2px rgba(0 , 86 , 149 , 1);
-            width: 25vw;
+            width: 80%;
             height: 5vh;
             border-radius: 10px;
             outline: none;
@@ -42,11 +46,44 @@
     }
 
     input:nth-child(6){
-        width: 10vw;
+        width: 50%;
         height: 8vh;
         padding-left: 0;
         background-color: rgba(0 , 86 , 149 , 1);
         color: white;
         cursor: pointer;
+    }
+}
+
+@media(max-width: 800px){
+    form{
+        width: 600px;
+    }
+    h3{
+        font-size: 13px;
+    }
+    img{
+        width: 18%;
+    }
+}
+
+@media(max-width: 650px){
+    .container{
+        h2{
+            font-size: 18px;
+        }
+    }
+}
+
+.principal{
+    height: auto;
+}
+
+@media(max-width: 530px){
+    form{
+        width: 50vw;
+    }
+    h3{
+        font-size: 10px;
     }
 }

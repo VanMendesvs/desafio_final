@@ -13,6 +13,12 @@ export default function Doados (){
                     <p>Susane Andrade</p>
                     <p>Ficção</p>
                 </article>
+                <article>
+                    <img src={Capa} alt="Capa do Livro com titulo Protagonista"/>
+                    <h3>Protagonista</h3>
+                    <p>Susane Andrade</p>
+                    <p>Ficção</p>
+                </article>
             </section>
         </section>
     )
