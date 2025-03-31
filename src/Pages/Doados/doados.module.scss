@@ -4,9 +4,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    h2{
-        border: solid red;
-    }
 }
 
 .boxCards {
@@ -16,17 +13,19 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     article {
-        border: solid 2px #005695;
-        width: 160px;
+        border: solid 4px #005695;
+        width: 200px;
         height: 30vh;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
-        border-radius: 13px;
+        flex-wrap: wrap-reverse;
+        border-radius: 20px;
+        margin: 1px;
     }
     img {
-        width: 7vw;
+        width: 35%;
     }
 }
 
